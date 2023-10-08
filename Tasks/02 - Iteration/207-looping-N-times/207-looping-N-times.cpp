@@ -13,7 +13,22 @@ int main()
         printf("i=%d\n", i);
     }
 
-    // TASK A - count from 10 down to 0 in steps of -1
+    for (i = 10;i >= 0;i = i--)
+    {
+        puts("Hello world");
+        puts("-----------");
+
+    }
+        printf("Exit with i=%d\n",i); //TASK A - count from 10 down to 0 in steps of - 1
+
+
+        for (p = 10;p >= -10;p -= 2)
+        {
+         puts("Hello world");
+         puts("-----------");
+         }
+
+        printf("Exit with p=%d\n", p);
 
     // TASK B - count from 10 down to -10 in steps of -2
 
